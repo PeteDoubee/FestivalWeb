@@ -148,6 +148,9 @@ footer {
     padding: 16px 0 16px 0;
     background: black;
 }
+.social-icons .fa:hover {
+    color: gray;
+}
 .social-icons {
     display: flex;
     justify-content: center;
@@ -168,7 +171,13 @@ footer {
 .fa-youtube-play {
     color: #ed3833;
 }
-
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    color: grey;
+}
 .footer-links {
     color: white;
     list-style: none;
